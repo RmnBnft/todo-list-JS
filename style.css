@@ -1,0 +1,38 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    max-width: 800px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+form.add-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.list {
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+}
